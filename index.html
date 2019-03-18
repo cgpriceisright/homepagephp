@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chris' Music Reviews<title>
+</head>
+<body>
+	<h1><?php
+echo "Welcome to Chris' Music Reviews!";
+?></h1>
+
+	<p class="welcome">Welcome to Chris' official music review website</p>
+	
+<div id="introduction">
+		
+<p><?php
+$name = "instruments";
+echo "This is your premiere source for musicians' gear. We give you the complete guide to $name professional musicians use so you can imitate their sound!";
+
+
+?></p>
+<p>Our dedicated team of ecclectic music enthusiests scours the <em>globe</em>) searching for demos, albums and singles in every genre. We then give reviews on their lyricism, sound quality and compare them to other pieces to show how interconnected the art really is!</p>
+  </div>
+
+  <ul id="course-list"</li>
+
+		<li>Guitarists</li>
+		<li>Instruments</li>
+		<!--needs more title ideas-->
+<p>We also welcome <a href="www.google.com">demo submissions</a>, which we forward to our record partners.</p>
+    <img src="https://img.huffingtonpost.com/asset/571e20051900002d0056c1b4.jpeg" />
+<!--I'm just using these as examples. Not going to steal copyrighted photos and videos for my own site.-->
+        <video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+
+<!--I'm thinking a gallery could go here with album covers of music that's been reviewed and featured on the site.-->
+<script type="text/javascript"></script>
+$serial_number = [
+  "Dave Matthews" => "Martin D-41",
+  "Jack Johnson" => "Taylor 210",
+  "John Mayer" => "Martin D-45",
+];
+
+if (array_key_exists("Dave Matthews", $serial_number)) {
+    echo "Dave Matthews' guitar of choice is " . $serial_number["Dave Matthews"] . "\n";
+} else {
+    echo "Dave Matthews' guitar is not listed!";
+}
+
+if (array_key_exists("Jack Johnson", $serial_number)) {
+    echo "Jack Johnson's guitar of choice is " . $serial_number["Jack Johnson"] . "\n";
+} else {
+    echo "Jack Johnson's guitar is not listed!";
+}
+
+if (array_key_exists("John Mayer", $serial_number)) {
+    echo "John Mayer's guitar of choice is " . $serial_number["Jack Johnson"] . "\n";
+} else {
+    echo "John Mayer's guitar is not listed!";
+}
+
+<?php
+$first_name = "Chris";
+$last_name = "Price";
+$name = $first_name . " " . $last_name;
+echo $name;
+
+
+?>
+</html>
